@@ -9,7 +9,7 @@
 ## Features
 
 - TypeScript
-- Jest unit testing
+- vitest
 - Commit-lint
 - Eslint and Prettier
 - Husky and lint-staged

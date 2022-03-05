@@ -2,7 +2,8 @@
   "compilerOptions": {
     "target": "ES6",
     "module": "ESNext",
-    "lib": ["esnext"],
+    "lib": ["esnext", "dom"],
+    "types": ["vitest/globals"],
     "moduleResolution": "Node",
     "esModuleInterop": true,
     "isolatedModules": true,

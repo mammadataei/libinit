@@ -27,7 +27,8 @@
   ],
   "scripts": {
     "build": "tsup",
-    "test": "jest",
+    "test": "vitest",
+    "coverage": "vitest run --coverage",
     "style": "prettier --write . && pnpm lint",
     "lint": "eslint --ext .js,.jsx,.ts,.tsx .",
     "prepare": "husky install",
@@ -40,17 +41,17 @@
   "devDependencies": {
     "@commitlint/cli": "^15.0.0",
     "@commitlint/config-conventional": "^15.0.0",
-    "@types/jest": "^27.4.1",
     "@typescript-eslint/eslint-plugin": "^5.12.1",
     "@typescript-eslint/parser": "^5.12.1",
+    "c8": "^7.11.0",
     "eslint": "^8.10.0",
     "eslint-config-prettier": "^8.4.0",
     "husky": "^7.0.4",
-    "jest": "^27.5.1",
     "lint-staged": "^12.3.4",
     "prettier": "2.5.0",
-    "ts-jest": "^27.1.3",
     "tsup": "^5.11.13",
-    "typescript": "^4.5.5"
+    "typescript": "^4.5.5",
+    "vite": "^2.8.6",
+    "vitest": "^0.5.9"
   }
 }
