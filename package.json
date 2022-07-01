@@ -39,19 +39,19 @@
     "*.{js,jsx,ts,tsx,md,html,css}": "prettier --write"
   },
   "devDependencies": {
-    "@commitlint/cli": "^17.0.2",
-    "@commitlint/config-conventional": "^17.0.2",
-    "@typescript-eslint/eslint-plugin": "^5.27.1",
-    "@typescript-eslint/parser": "^5.27.1",
+    "@commitlint/cli": "^17.0.3",
+    "@commitlint/config-conventional": "^17.0.3",
+    "@typescript-eslint/eslint-plugin": "^5.30.3",
+    "@typescript-eslint/parser": "^5.30.3",
     "c8": "^7.11.3",
-    "eslint": "^8.17.0",
+    "eslint": "^8.18.0",
     "eslint-config-prettier": "^8.5.0",
     "husky": "^8.0.1",
-    "lint-staged": "^13.0.1",
+    "lint-staged": "^13.0.3",
     "prettier": "2.6.2",
-    "tsup": "^6.1.0",
-    "typescript": "^4.7.3",
-    "vite": "^2.9.10",
-    "vitest": "^0.14.1"
+    "tsup": "^6.1.2",
+    "typescript": "^4.7.4",
+    "vite": "^2.9.13",
+    "vitest": "^0.16.0"
   }
 }
