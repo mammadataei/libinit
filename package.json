@@ -27,7 +27,7 @@
   ],
   "scripts": {
     "build": "tsup",
-    "test": "vitest",
+    "test": "vitest --ui --open=false",
     "coverage": "vitest run --coverage",
     "format": "prettier --write . && pnpm lint --fix",
     "lint": "eslint --ext .js,.jsx,.ts,.tsx .",
@@ -43,6 +43,7 @@
     "@commitlint/config-conventional": "^17.0.3",
     "@typescript-eslint/eslint-plugin": "^5.31.0",
     "@typescript-eslint/parser": "^5.31.0",
+    "@vitest/ui": "^0.21.1",
     "c8": "^7.12.0",
     "eslint": "^8.21.0",
     "eslint-config-prettier": "^8.5.0",
