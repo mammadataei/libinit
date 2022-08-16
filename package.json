@@ -12,12 +12,13 @@
   "bugs": {
     "url": "https://github.com/mammadataei/libinit/issues"
   },
-  "main": "dist/index.js",
+  "type": "module",
+  "main": "dist/index.cjs",
   "module": "dist/index.mjs",
   "types": "dist/index.d.ts",
   "exports": {
     ".": {
-      "require": "./dist/index.js",
+      "require": "./dist/index.cjs",
       "import": "./dist/index.mjs",
       "types": "./dist/index.d.ts"
     }
@@ -26,7 +27,7 @@
     "dist"
   ],
   "scripts": {
-    "build": "tsup",
+    "build": "unbuild",
     "test": "vitest --ui --open=false",
     "coverage": "vitest run --coverage",
     "format": "prettier --write . && pnpm lint --fix",
@@ -50,8 +51,8 @@
     "husky": "^8.0.1",
     "lint-staged": "^13.0.3",
     "prettier": "2.7.1",
-    "tsup": "^6.2.1",
     "typescript": "^4.7.4",
+    "unbuild": "^0.8.8",
     "vite": "^3.0.4",
     "vitest": "^0.18.1"
   }
