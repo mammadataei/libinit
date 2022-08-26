@@ -42,18 +42,18 @@
   "devDependencies": {
     "@commitlint/cli": "^17.0.3",
     "@commitlint/config-conventional": "^17.0.3",
-    "@typescript-eslint/eslint-plugin": "^5.31.0",
-    "@typescript-eslint/parser": "^5.31.0",
-    "@vitest/ui": "^0.21.1",
+    "@typescript-eslint/eslint-plugin": "^5.35.1",
+    "@typescript-eslint/parser": "^5.35.1",
+    "@vitest/ui": "^0.22.1",
     "c8": "^7.12.0",
-    "eslint": "^8.21.0",
+    "eslint": "^8.22.0",
     "eslint-config-prettier": "^8.5.0",
     "husky": "^8.0.1",
     "lint-staged": "^13.0.3",
     "prettier": "2.7.1",
     "typescript": "^4.7.4",
-    "unbuild": "^0.8.8",
-    "vite": "^3.0.4",
-    "vitest": "^0.18.1"
+    "unbuild": "^0.8.9",
+    "vite": "^3.0.9",
+    "vitest": "^0.22.1"
   }
 }
