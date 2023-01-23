@@ -18,10 +18,14 @@
 
 ## Geting started
 
-First Clone this repository:
+Use `degit` to clone this repository:
 
 ```bash
-git clone https://github.com/mammadataei/libinit.git my-library
+npx degit mammadataei/libinit my-lib
+
+yarn dlx degit mammadataei/libinit my-lib
+
+pnpm dlx degit mammadataei/libinit my-lib
 ```
 
 Then update the configurations as you need:
@@ -29,4 +33,4 @@ Then update the configurations as you need:
 1. Edit `LICENSE` file
 2. Edit `package.json` information
 3. Update the `README.md`
-4. update other configuration files to suite your needs
+4. update other configuration files to suit your needs
