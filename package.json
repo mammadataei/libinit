@@ -46,15 +46,15 @@
     "@typescript-eslint/parser": "^5.62.0",
     "@vitest/coverage-c8": "^0.33.0",
     "@vitest/ui": "^0.33.0",
-    "eslint": "^8.45.0",
-    "eslint-config-prettier": "^8.8.0",
+    "eslint": "^8.46.0",
+    "eslint-config-prettier": "^8.10.0",
     "husky": "^8.0.3",
     "lint-staged": "^13.2.3",
     "prettier": "3.0.0",
     "typescript": "^5.1.6",
     "unbuild": "^1.2.1",
-    "vite": "^4.4.7",
+    "vite": "^4.4.8",
     "vitest": "^0.33.0"
   },
-  "packageManager": "pnpm@8.6.10"
+  "packageManager": "pnpm@8.6.12"
 }
