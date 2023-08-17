@@ -40,20 +40,20 @@
     "*.{js,jsx,ts,tsx,md,html,css}": "prettier --write"
   },
   "devDependencies": {
-    "@commitlint/cli": "^17.6.7",
-    "@commitlint/config-conventional": "^17.6.7",
+    "@commitlint/cli": "^17.7.1",
+    "@commitlint/config-conventional": "^17.7.0",
     "@typescript-eslint/eslint-plugin": "^5.62.0",
     "@typescript-eslint/parser": "^5.62.0",
     "@vitest/coverage-c8": "^0.33.0",
     "@vitest/ui": "^0.33.0",
-    "eslint": "^8.46.0",
+    "eslint": "^8.47.0",
     "eslint-config-prettier": "^8.10.0",
     "husky": "^8.0.3",
-    "lint-staged": "^13.2.3",
+    "lint-staged": "^13.3.0",
     "prettier": "3.0.0",
     "typescript": "^5.1.6",
     "unbuild": "^1.2.1",
-    "vite": "^4.4.8",
+    "vite": "^4.4.9",
     "vitest": "^0.33.0"
   },
   "packageManager": "pnpm@8.6.12"
