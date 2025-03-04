@@ -25,7 +25,7 @@ jobs:
 
       - uses: actions/setup-node@v4
         with:
-          node-version: lts
+          node-version: lts/*
         if: ${{ steps.release.outputs.release_created }}
 
       - name: Set pnpm publishing config
