@@ -1,5 +1,3 @@
-/* eslint-env node */
-
-module.exports = {
+export default {
   extends: ['@commitlint/config-conventional'],
 }
